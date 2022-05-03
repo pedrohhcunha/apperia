@@ -31,6 +31,7 @@
 
 .destaques__painel-imagem{
     width: 100vw;
+    max-width: 600px;
     margin-bottom: .5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
