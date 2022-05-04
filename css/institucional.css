@@ -54,3 +54,8 @@
     margin-top: 20px;
     max-width: 600px;
 }
+@media (min-width: 768px) {
+    .institucional__contato-email{
+        display: inline-block;
+    }
+}
