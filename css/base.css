@@ -63,3 +63,13 @@ body{
 #toTop.active{
     opacity: 1;
 }
+
+#follow{
+    position: fixed;
+    pointer-events: none;
+    transition: all 1s;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
