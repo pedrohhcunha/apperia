@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
 })
 
 document.addEventListener('mouseleave', () => {
-    alert("Volta aqui cara")
+    alert("Você saiu da página")
 })
 
 document.addEventListener('mousemove', function(e) {
