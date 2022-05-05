@@ -16,6 +16,10 @@
     --montserrat: 'Montserrat', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -38,4 +42,24 @@ body{
     border: 1px solid var(--branco);
 
     border-radius: 5px;
+}
+
+#toTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+    padding: 0 20px;
+    height: 40px;
+    background-color: var(--planos-cartao-mega);
+    color: var(--branco);
+    cursor: pointer;
+
+    opacity: 0;
+
+    transition: all .3s;
+}
+
+#toTop.active{
+    opacity: 1;
 }
