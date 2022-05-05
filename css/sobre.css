@@ -1,6 +1,7 @@
 .sobre {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
 }
 
 .sobre__titulo {
@@ -32,4 +33,9 @@
 
     margin-bottom: 1rem;
     list-style: none;
+}
+@media (max-width: 992px) {
+    .sobre__imagem{
+        display: none;
+    }
 }

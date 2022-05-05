@@ -73,3 +73,10 @@ body{
     border-radius: 50%;
     border: 1px solid black;
 }
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
