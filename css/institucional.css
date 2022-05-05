@@ -59,3 +59,11 @@
         display: inline-block;
     }
 }
+
+
+@media (min-width: 1024px){
+    .insticucional__conteudo{
+        display: flex;
+        align-items: center;
+    }
+}
