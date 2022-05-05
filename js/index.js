@@ -10,3 +10,7 @@ window.addEventListener('scroll', () => {
         document.querySelector('#toTop').classList.toggle('active')
     }
 })
+
+document.addEventListener('mouseleave', () => {
+    alert("Volta aqui cara")
+})
